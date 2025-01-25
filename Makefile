@@ -1,6 +1,6 @@
 CC = gcc
 CFLAGS = -Wall -Wextra -Iinclude
-SRC = src/main.c src/module.c
+SRC = src/main.c src/calculator.c
 OBJ = $(SRC:.c=.o)
 TARGET = build/my_program
 
